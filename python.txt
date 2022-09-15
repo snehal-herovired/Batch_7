@@ -1,0 +1,22 @@
+'''
+
+        John manages a private vehicle parking site at a hospital. The charge for a 2-wheeler vehicle is X and a 4-wheeler vehicle is Y. He would like to know how much money he has collected at the end of the day for n number of 2-wheelers parked and m number of 4-wheelers parked on the day. 
+
+Please write a python program where X,Y, N,M will be input from the user.
+
+
+charge for n number of 2 wheeler will be  n*x where x is price paid of one 2 wheeler at parking;
+charge for m number of 4 wheeler will be  m*y where y is price paid of one 4 wheeler at parking;
+
+
+'''
+
+n=input("enter number of 2 wheelers : ")
+m=input("enter number of 4 wheelers : ")
+x=input("enter the parking rate for 2 wheelers : ")
+y=input("enter the parking rate for 4 wheelers : ")
+total_of_2wheelers = int(n)*int(x)
+total_of_4wheelers = int(m)*int(y)
+total =total_of_2wheelers + total_of_4wheelers
+print("your total parking fee collected is : ",total)
+

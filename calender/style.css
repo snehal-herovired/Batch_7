@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main-body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+}
+.calender-body{
+    /* background-color: blue; */
+    width: 80%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
+}
+.month{
+    /* background-color:lightblue; */
+    width: 28%;
+    height: 30%;
+    margin: 15px;
+    padding: 1px;
+    border: none;
+    outline: none;
+}
+.month .heading{
+    margin-left: 10px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid lightseagreen;
+    /* background-color: red; */
+    color: lightseagreen;
+}
+.month >table{
+    width: 100%;
+}
+table tr>th{
+    /* margin: 2px; */
+    color: lightseagreen;
+}
+table tr>td{
+    /* margin: 2px; */
+    text-align: center;
+    color: lightseagreen;
+}
+/* .month table>tr>th{
+    border-bottom: 1px solid black;
+} */
+.side-body{
+    width: 20%;
+    background-color:rgb(100, 178, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    /* width: 1500px; */
+    /* background-color: red; */
+   /* text-size-adjust: 2rem; */
+    /* text-align: center; */
+    transform: rotate(-90deg);
+    font-size:18rem;
+    color: green;
+}
